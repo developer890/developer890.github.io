@@ -2230,17 +2230,17 @@ textarea.form-control {
 .modal.modal-login .modal-footer a:hover, .modal.modal-signup .modal-footer a:hover {
   color: #4a6578;
 }
-.modal.modal-login .form-group, .modal.modal-signup .form-group {
+.modal.modal-login .form-group, .modal.modal-signup .form-group,.form-group {
   position: relative;
 }
-.modal.modal-login .form-group .svg-inline--fa, .modal.modal-signup .form-group .svg-inline--fa {
+.modal.modal-login .form-group .svg-inline--fa, .modal.modal-signup .form-group .svg-inline--fa,.form-group .svg-inline--fa {
   position: absolute;
   left: 10px;
   top: 12px;
   color: #999;
   width: 14px;
 }
-.modal.modal-login .form-control, .modal.modal-signup .form-control {
+.modal.modal-login .form-control, .modal.modal-signup .form-control,.form-control {
   font-size: 16px;
   padding-left: 30px;
   background: #fff;
@@ -2248,19 +2248,19 @@ textarea.form-control {
   color: #666;
   font-size: 14px;
 }
-.modal.modal-login .form-control::-webkit-input-placeholder, .modal.modal-signup .form-control::-webkit-input-placeholder {
+.modal.modal-login .form-control::-webkit-input-placeholder, .modal.modal-signup .form-control::-webkit-input-placeholder,.form-control::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #999;
 }
-.modal.modal-login .form-control:-moz-placeholder, .modal.modal-signup .form-control:-moz-placeholder {
+.modal.modal-login .form-control:-moz-placeholder, .modal.modal-signup .form-control:-moz-placeholder,.form-control:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #999;
 }
-.modal.modal-login .form-control::-moz-placeholder, .modal.modal-signup .form-control::-moz-placeholder {
+.modal.modal-login .form-control::-moz-placeholder, .modal.modal-signup .form-control::-moz-placeholder,.form-control::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #999;
 }
-.modal.modal-login .form-control:-ms-input-placeholder, .modal.modal-signup .form-control:-ms-input-placeholder {
+.modal.modal-login .form-control:-ms-input-placeholder, .modal.modal-signup .form-control:-ms-input-placeholder,.form-control:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #999;
 }
@@ -2583,3 +2583,12 @@ textarea.form-control {
     padding-left: 15px;
   }
 }
+
+.button-primary-override{
+  background-color: #CC3D00 !important;
+  color: white !important;
+}
+/*.button-primary-override:hover{*/
+  /*background-color:white !important;*/
+  /*color: #CC3D00 !important;*/
+/*}*/
